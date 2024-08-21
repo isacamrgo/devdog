@@ -3,18 +3,18 @@
 :root{
     --background: #ffffff;
     --foreground: #ebf4ff;
-    --thirdground: #ffc600;
-    --primary: #131923;
-    --secondary: #0055b8;
-    --secondary-foreground: #fff;
-    --hero-back: #f3f3f3;
+    --thirdground:#ffc600;
+    --primary:#131923;
+    --secondary:#0055b8;
+    --secondary-foreground:#ffffff;
+    --hero-background:#f3f3f3;
 }
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    list-style: none;
+    list-style:none;
 }
 
 ::-webkit-scrollbar{
@@ -23,7 +23,7 @@
 
 html{
     font-family: "Lato", sans-serif;
-    font-size: 62.5%;
+    font-size: 62.5%; /*define a fonte para 10px no rem */
 }
 
 body{
@@ -34,8 +34,8 @@ body{
 
 .container{
     width: 100%;
-    max-width: 1400px;
-    margin: auto;
+    max-width: 1400px; /*largura maxima */
+    margin: auto; /*centraliza o conteudo */
 }
 
 .button, .button2{
@@ -44,7 +44,7 @@ body{
     border: 2px solid var(--secondary);
     color: var(--secondary-foreground);
     padding: 2rem 4rem;
-    font-size: 2rem;
+    font-size:2rem;
     text-decoration: none;
     border-radius: 15px;
 }
@@ -55,5 +55,5 @@ body{
 }
 
 .button:hover,.button2:hover{
-    opacity: 0.8;
+    opacity:0.8;
 }
